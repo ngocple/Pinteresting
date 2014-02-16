@@ -28,6 +28,9 @@ gem 'jbuilder', '~> 1.2'
 # Bootstrap front end framework
 gem 'bootstrap-sass'
 
+# Authenication gem
+gem 'devise', '~> 3.1.0.rc2'
+
 group :development, :test do
 # Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
